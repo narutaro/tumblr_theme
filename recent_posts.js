@@ -29,7 +29,7 @@
             type: "GET",
             url: "http://"+location.hostname+"/api/read/json",
             data: "",
-            async: true,
+            async: false,
             script: true,
             cache: false,
             success: function(_responseText){
