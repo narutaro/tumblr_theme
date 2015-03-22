@@ -20,7 +20,7 @@
  
         var recentPosts = $(this.element);
         recentPosts.html("");
-        var title = $('<div class="module-recent-posts-title">'+this.options.title+'</div>');
+        //var title = $('<div class="module-recent-posts-title">'+this.options.title+'</div>');
         recentPosts.append(title);
         
         var recentPostsUl = $('<ul class="module-recent-posts-ul"></ul>');
