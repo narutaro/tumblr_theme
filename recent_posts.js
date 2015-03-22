@@ -58,4 +58,4 @@
 
 console.log('debug');
 
-$("#recent_posts").recentPosts();
+//$("#recent_posts").recentPosts();
