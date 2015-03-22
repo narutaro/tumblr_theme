@@ -55,3 +55,5 @@
         });
     };
 }(jQuery, window));
+
+$("#recent_posts").recentPosts();
