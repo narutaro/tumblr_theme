@@ -46,3 +46,14 @@
     font-weight: bold;
     font-family: Arial;
 }
+
+ul {
+    margin-left: 1em;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+li {
+    text-indent: -1.0em;
+}
+
