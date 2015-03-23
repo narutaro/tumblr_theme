@@ -37,7 +37,7 @@
                 var count = 0;
                 for (var i=0;i<tumblr_api_read.posts.length;i++) {
                     //var li = $('<li class="module-recent-posts-li"><a href="'+tumblr_api_read.posts[i]['url']+'">'+tumblr_api_read.posts[i]['regular-title']+'</a></li>');
-                    var li = $('<a href="'+tumblr_api_read.posts[i]['url']+'">'+tumblr_api_read.posts[i]['regular-title']+'</a>');
+                    var li = $('<span><a href="'+tumblr_api_read.posts[i]['url']+'">'+tumblr_api_read.posts[i]['regular-title']+'</a></span>');
                     recentPostsUl.append(li);
                     if (count == t.options.max) {
                         break;
