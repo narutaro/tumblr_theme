@@ -20,10 +20,10 @@
  
         var recentPosts = $(this.element);
         recentPosts.html("");
-        var title = $('<div class="module-recent-posts-title">'+this.options.title+'</div>');
+        //var title = $('<div class="module-recent-posts-title">'+this.options.title+'</div>');
         //recentPosts.append(title);
         
-        var recentPostsUl = $('<ul class="module-recent-posts-ul"></ul>');
+        var recentPostsUl = $('<span class="Label"></span>');
         var t = this;
         $.ajax({
             type: "GET",
@@ -36,7 +36,8 @@
                 
                 var count = 0;
                 for (var i=0;i<tumblr_api_read.posts.length;i++) {
-                    var li = $('<li class="module-recent-posts-li"><a href="'+tumblr_api_read.posts[i]['url']+'">'+tumblr_api_read.posts[i]['regular-title']+'</a></li>');
+                    //var li = $('<li class="module-recent-posts-li"><a href="'+tumblr_api_read.posts[i]['url']+'">'+tumblr_api_read.posts[i]['regular-title']+'</a></li>');
+                    var li = $('<a href="'+tumblr_api_read.posts[i]['url']+'">'+tumblr_api_read.posts[i]['regular-title']+'</a>');
                     recentPostsUl.append(li);
                     if (count == t.options.max) {
                         break;
