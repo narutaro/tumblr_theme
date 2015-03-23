@@ -24,6 +24,7 @@
         //recentPosts.append(title);
         
         var recentPostsUl = $('<div class="large-12 columns"></div>');
+        recentPostsUl.append('<span class="Label">Next read:<span>');
         var t = this;
         $.ajax({
             type: "GET",
