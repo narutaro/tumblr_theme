@@ -1,0 +1,48 @@
+.Label a {
+    padding-left: 20px;
+    background: #484848;
+    padding: 0 20px;
+    color: #fff!important;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    height: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    t: 30pxt: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-family: Avenir, Arial;
+}
+
+.Label a:hover {
+    color: #000 !important;
+    background: #FFCC00;
+    font-weight: bold;
+}
+
+#next_read {
+    padding-left: 20px;
+    background: #FFCC00;
+    padding: 0 20px;
+    color: #000 !important;
+    border-radius: 100px;
+    -moz-border-radius: 100px;
+    height: 32px;
+    line-height: 32px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: none !important;
+    -webkit-transition: all .3s ease-in-out !important;
+    t: 30pxt: 30px;
+    float: left;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial;
+}
