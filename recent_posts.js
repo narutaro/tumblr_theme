@@ -23,7 +23,7 @@
         //var title = $('<div class="module-recent-posts-title">'+this.options.title+'</div>');
         //recentPosts.append(title);
         
-        var recentPostsUl = $('<span class="Label"></span>');
+        var recentPostsUl = $('<div class="Label"></div>');
         var t = this;
         $.ajax({
             type: "GET",
