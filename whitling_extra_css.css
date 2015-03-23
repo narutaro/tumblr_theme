@@ -48,12 +48,17 @@
 }
 
 ul {
-    margin-left: 1em;
+    margin-left: 2em;
     list-style-position: inside;
     list-style-type: disc;
 }
 
+ol {
+    margin-left: 2em;
+    list-style-position: inside;
+}
+
 li {
-    text-indent: -1.0em;
+    text-indent: -2em;
 }
 
